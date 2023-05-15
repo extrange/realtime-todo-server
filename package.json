@@ -1,0 +1,15 @@
+{
+  "devDependencies": {
+    "@types/node": "^20.1.1",
+    "nodemon": "^2.0.22",
+    "ts-node": "^10.9.1"
+  },
+  "scripts": {
+    "start": "ts-node ./src/main.ts",
+    "dev": "nodemon ./src/main.ts"
+  },
+  "dependencies": {
+    "@hocuspocus/server": "^2.0.6",
+    "y-websocket": "^1.5.0"
+  }
+}
