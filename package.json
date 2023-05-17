@@ -9,6 +9,8 @@
     "dev": "nodemon ./src/main.ts"
   },
   "dependencies": {
+    "@hocuspocus/extension-database": "^2.0.6",
+    "@hocuspocus/extension-sqlite": "^2.0.6",
     "@hocuspocus/server": "^2.0.6",
     "y-websocket": "^1.5.0"
   }
