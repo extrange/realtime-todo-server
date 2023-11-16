@@ -1,5 +1,9 @@
 FROM node:20
 
-WORKDIR /src
+WORKDIR /workspace
+
+COPY . .
+
+RUN npm ci
 
 CMD ["npm", "run", "start"]

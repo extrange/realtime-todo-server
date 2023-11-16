@@ -1,6 +1,6 @@
 {
   "devDependencies": {
-    "@types/node": "^20.6.5",
+    "@types/node": "^20.9.0",
     "nodemon": "^3.0.1",
     "ts-node": "^10.9.1"
   },
@@ -9,9 +9,9 @@
     "dev": "nodemon ./src/main.ts"
   },
   "dependencies": {
-    "@hocuspocus/extension-database": "^2.5.0",
-    "@hocuspocus/extension-sqlite": "^2.5.0",
-    "@hocuspocus/server": "^2.5.0",
+    "@hocuspocus/extension-database": "^2.8.0",
+    "@hocuspocus/extension-sqlite": "^2.8.0",
+    "@hocuspocus/server": "^2.8.0",
     "y-websocket": "^1.5.0"
   }
 }

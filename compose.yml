@@ -1,0 +1,5 @@
+services:
+  tasks-server:
+    container_name: tasks-server
+    build: .
+    restart: always
