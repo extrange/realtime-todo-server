@@ -11,7 +11,7 @@
   "dependencies": {
     "@hocuspocus/extension-database": "^2.8.0",
     "@hocuspocus/extension-sqlite": "^2.8.0",
-    "@hocuspocus/server": "^2.8.0",
+    "@hocuspocus/server": "^2.8.1",
     "y-websocket": "^1.5.0"
   }
 }
