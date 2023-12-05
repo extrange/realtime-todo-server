@@ -1,5 +1,5 @@
 services:
-  tasks-server:
-    container_name: tasks-server
+  realtime-todo-server:
+    container_name: realtime-todo-server
     build: .
     restart: always
