@@ -1,3 +1,6 @@
+# This is included into the main compose file in server-core
+# Do not run this, as it will not be connected to the default network
+# and not be visible to nginx.
 services:
   realtime-todo-server:
     container_name: realtime-todo-server
