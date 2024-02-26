@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "@types/node": "^20.11.19",
-    "nodemon": "^3.0.3",
+    "@types/node": "^20.11.20",
+    "nodemon": "^3.1.0",
     "ts-node": "^10.9.2"
   },
   "scripts": {
@@ -12,6 +12,6 @@
     "@hocuspocus/extension-database": "^2.11.2",
     "@hocuspocus/extension-sqlite": "^2.11.2",
     "@hocuspocus/server": "^2.8.1",
-    "y-websocket": "^1.5.3"
+    "y-websocket": "^1.5.4"
   }
 }
