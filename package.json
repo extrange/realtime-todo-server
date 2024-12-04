@@ -1,7 +1,7 @@
 {
   "devDependencies": {
-    "@types/node": "^20.12.5",
-    "nodemon": "^3.1.0",
+    "@types/node": "^22.10.1",
+    "nodemon": "^3.1.7",
     "ts-node": "^10.9.2"
   },
   "scripts": {
@@ -9,9 +9,9 @@
     "dev": "nodemon ./src/main.ts"
   },
   "dependencies": {
-    "@hocuspocus/extension-database": "^2.11.3",
-    "@hocuspocus/extension-sqlite": "^2.11.3",
-    "@hocuspocus/server": "^2.11.3",
-    "y-websocket": "^2.0.2"
+    "@hocuspocus/extension-database": "^2.14.0",
+    "@hocuspocus/extension-sqlite": "^2.14.0",
+    "@hocuspocus/server": "^2.14.0",
+    "y-websocket": "^2.0.4"
   }
 }

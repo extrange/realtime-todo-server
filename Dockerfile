@@ -1,4 +1,8 @@
-FROM node:20
+FROM node:23 AS base
+
+#-------------------------
+
+FROM base
 
 WORKDIR /workspace
 
