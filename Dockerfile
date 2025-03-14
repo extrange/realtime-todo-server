@@ -1,4 +1,4 @@
-FROM node:23@sha256:8ec46835f28cc572d67820fc56a6c5ab7d08c6e9b690ae6941aad462943e152e AS base
+FROM node:23@sha256:e940261391ab78a883bbcfba448bcbb6d36803053f67017e6e270ef095f213ca AS base
 
 #-------------------------
 
