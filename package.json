@@ -4,9 +4,13 @@
     "nodemon": "3.1.9",
     "ts-node": "10.9.2"
   },
+  "engines": {
+    "node": "22.14.0"
+  },
   "scripts": {
     "start": "ts-node ./src/main.ts",
-    "dev": "nodemon ./src/main.ts"
+    "dev": "nodemon ./src/main.ts",
+    "test": "tsc --noEmit"
   },
   "dependencies": {
     "@hocuspocus/extension-database": "^2.14.0",
