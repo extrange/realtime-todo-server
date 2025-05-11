@@ -1,11 +1,11 @@
 {
   "devDependencies": {
-    "@types/node": "22.14.1",
-    "nodemon": "3.1.9",
+    "@types/node": "22.15.17",
+    "nodemon": "3.1.10",
     "ts-node": "10.9.2"
   },
   "engines": {
-    "node": "22.14.0"
+    "node": "22.15.0"
   },
   "scripts": {
     "start": "ts-node ./src/main.ts",
