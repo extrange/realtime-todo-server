@@ -6,7 +6,13 @@ services:
     container_name: realtime-todo-server
     build: .
     restart: always
+    networks:
+      - realtime-todo-server
     labels:
       traefik.http.routers.realtime-todo-server.rule: Host(`tasks-server.nicholaslyz.com`)
       traefik.http.services.realtime-todo-server.loadbalancer.server.port: 1234
       traefik.enable: true
+      traefik.docker.network: server-core_realtime-todo-server
+
+networks:
+  realtime-todo-server:
