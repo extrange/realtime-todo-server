@@ -1,4 +1,4 @@
-# This is included into the main compose file in server-core
+# This is included into the main compose file in core
 # Do not run this, as it will not be connected to the default network
 # and not be visible to nginx.
 services:
@@ -12,7 +12,7 @@ services:
       traefik.http.routers.realtime-todo-server.rule: Host(`tasks-server.nicholaslyz.com`)
       traefik.http.services.realtime-todo-server.loadbalancer.server.port: 1234
       traefik.enable: true
-      traefik.docker.network: server-core_realtime-todo-server
+      traefik.docker.network: core_realtime-todo-server
 
 networks:
   realtime-todo-server:
