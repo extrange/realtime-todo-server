@@ -3,7 +3,7 @@
   "display": "Node 20",
   "compilerOptions": {
     "lib": ["es2022"],
-    "module": "CommonJS",
+    "module": "nodenext",
     "target": "es2022",
     "strict": true,
     "esModuleInterop": true,
