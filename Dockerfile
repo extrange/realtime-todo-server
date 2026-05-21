@@ -6,8 +6,10 @@ FROM base
 
 WORKDIR /workspace
 
-COPY . .
+COPY package.json package-lock.json /workspace/
 
 RUN npm ci
+
+COPY . .
 
 CMD ["npm", "run", "start"]

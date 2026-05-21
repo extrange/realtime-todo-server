@@ -8,6 +8,8 @@ services:
     restart: always
     networks:
       - realtime-todo-server
+    volumes:
+      - ./data:/workspace/data
     labels:
       traefik.http.routers.realtime-todo-server.rule: Host(`tasks-server.nicholaslyz.com`)
       traefik.http.services.realtime-todo-server.loadbalancer.server.port: 1234

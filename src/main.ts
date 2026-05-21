@@ -4,7 +4,7 @@ import { SQLite } from "@hocuspocus/extension-sqlite";
 const server = new Server({
 	address: "0.0.0.0",
 	port: 1234,
-	extensions: [new SQLite({ database: "db.sqlite" })],
+	extensions: [new SQLite({ database: "data/db.sqlite" })],
 });
 
 server.listen();
