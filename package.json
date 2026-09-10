@@ -2,11 +2,12 @@
   "devDependencies": {
     "@types/node": "24.13.3",
     "nodemon": "3.1.14",
-    "ts-node": "10.9.2"
+    "tsx": "4.23.13",
+    "typescript": "5.9.3"
   },
   "scripts": {
-    "start": "ts-node ./src/main.ts",
-    "dev": "nodemon ./src/main.ts",
+    "start": "tsx ./src/main.ts",
+    "dev": "nodemon --exec tsx ./src/main.ts",
     "test": "tsc --noEmit"
   },
   "dependencies": {
