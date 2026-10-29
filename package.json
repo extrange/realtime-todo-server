@@ -1,4 +1,8 @@
 {
+  "private": true,
+  "engines": {
+    "node": "24.x"
+  },
   "devDependencies": {
     "@types/node": "24.19.2",
     "nodemon": "3.1.14",
@@ -6,9 +10,12 @@
     "typescript": "5.9.3"
   },
   "scripts": {
-    "start": "tsx ./src/main.ts",
+    "build": "tsc",
+    "prestart": "npm run build",
+    "start": "node ./dist/main.js",
     "dev": "nodemon --exec tsx ./src/main.ts",
-    "test": "tsc --noEmit"
+    "typecheck": "tsc --noEmit",
+    "test": "npm run typecheck"
   },
   "dependencies": {
     "@hocuspocus/extension-database": "^4.0.0",

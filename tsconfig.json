@@ -1,14 +1,21 @@
 {
   "$schema": "https://json.schemastore.org/tsconfig",
-  "display": "Node 20",
+  "display": "Node 24",
   "compilerOptions": {
     "lib": ["es2022"],
     "module": "nodenext",
     "target": "es2022",
     "strict": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
     "esModuleInterop": true,
     "skipLibCheck": true,
     "forceConsistentCasingInFileNames": true,
-    "moduleResolution": "nodenext"
-  }
+    "moduleResolution": "nodenext",
+    "rootDir": "src",
+    "outDir": "dist",
+    "sourceMap": true
+  },
+  "include": ["src"],
+  "exclude": ["dist", "node_modules"]
 }
